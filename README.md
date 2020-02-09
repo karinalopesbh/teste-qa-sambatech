@@ -6,9 +6,9 @@
 
 **Sistema Operacional:** Windows 7
 
-## Casos de Teste
+## Casos de Teste e Cenários que podem ser automatizados
 
-No aquivo CenariosTeste.pdf se encontra os principais casos de teste identificados.
+No aquivo CenariosTeste.pdf se encontra os principais casos de teste identificados e esses são os testes que podem ser automatizados.
 
 
 ## Issues
