@@ -1,0 +1,187 @@
+{
+  "id": "c90ceb45-25f6-4d18-9094-96549263ad45",
+  "version": "2.0",
+  "name": "SambaTech",
+  "url": "https://slide.sambaplay.tv",
+  "tests": [{
+    "id": "ae4cdced-3b8f-4303-8cae-91ff03174511",
+    "name": "ObrigatoriedadeCamposCadastro",
+    "commands": [{
+      "id": "1fbcf11b-37c6-4a63-991c-083c63f20dd1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7113e900-678f-4b5d-bb1e-9d6858542ff5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "841x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2b4e9b1-7af7-4948-b702-d6b939a63e3e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clique para começar",
+      "targets": [
+        ["linkText=Clique para começar", "linkText"],
+        ["css=.HomeNotAuthStyle__LinkSplashMobile-sht974-5", "css:finder"],
+        ["xpath=//a[contains(text(),'Clique para começar')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Clique para começar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5df2d51a-bd27-49a5-bd9c-c219f0634e78",
+      "comment": "",
+      "command": "click",
+      "target": "css=#user-not-logged > .material-icons",
+      "targets": [
+        ["css=#user-not-logged > .material-icons", "css:finder"],
+        ["xpath=//div[@id='user-not-logged']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/i", "xpath:position"],
+        ["xpath=//i[contains(.,'account_circle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f936181b-732d-4829-b995-54c530787f3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cursor-pointer > b",
+      "targets": [
+        ["css=.cursor-pointer > b", "css:finder"],
+        ["xpath=//div[@id='register-button-login-page']/a/b", "xpath:idRelative"],
+        ["xpath=//a/b", "xpath:position"],
+        ["xpath=//b[contains(.,' Criar conta.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc3c6e3-d460-4974-9330-2daaa904dfbf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69832f3b-bc58-48d7-9c01-ed78e2df8c70",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerName",
+      "targets": [
+        ["id=registerName", "id"],
+        ["name=name", "name"],
+        ["css=#registerName", "css:finder"],
+        ["xpath=//input[@id='registerName']", "xpath:attributes"],
+        ["xpath=//form[@id='formRegister']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d582fad-2a9c-4d05-baa2-9c087fcd0ad2",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerEmail",
+      "targets": [
+        ["id=registerEmail", "id"],
+        ["name=email", "name"],
+        ["css=#registerEmail", "css:finder"],
+        ["xpath=//input[@id='registerEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='formRegister']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2de5e75d-0fc6-4f53-b590-a396deff5102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inputField:nth-child(3) > label",
+      "targets": [
+        ["css=.inputField:nth-child(3) > label", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Confirmar e-mail')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d4194ae-c444-4fd1-a3f9-3eaca4ea4227",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.input-full",
+      "targets": [
+        ["css=.input-full", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": "122.85000610351562,56"
+    }, {
+      "id": "d80e55da-8b14-43fb-b233-0e3aa95be122",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.input-full",
+      "targets": [
+        ["css=.input-full", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": "122.85000610351562,56"
+    }, {
+      "id": "5e4d1557-70dc-49ed-9394-001e1dc1fcd3",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.input-full",
+      "targets": [
+        ["css=.input-full", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": "122.85000610351562,56"
+    }, {
+      "id": "ba0fb6cc-f113-4719-806d-803e25488216",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-full",
+      "targets": [
+        ["css=.input-full", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae974d69-6a55-4e54-9d18-6809d47b633b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-full",
+      "targets": [
+        ["css=.input-full", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d0f217-ff00-4796-abce-c5e17f210199",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.input-full > .invalidInput",
+      "targets": [
+        ["css=.input-full > .invalidInput", "css:finder"],
+        ["xpath=//form[@id='formRegister']/div/div/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Campo obrigatório')]", "xpath:innerText"]
+      ],
+      "value": "Campo obrigatório"
+    }]
+  }],
+  "suites": [{
+    "id": "d7689b7d-672f-4b16-9aa9-d552ebd0f035",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://slide.sambaplay.tv/"],
+  "plugins": []
+}
